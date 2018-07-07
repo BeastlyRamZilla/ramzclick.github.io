@@ -1,0 +1,139 @@
+/*Comments By Ramzi
+*Copyright 2018 Ramz Gamez
+*/
+/*html*/
+html{background:#0C0039;height:550;width:750px;}
+					/*Body*/
+						body{
+							background:#DC5FFF;
+							border: 2px solid black;
+							border-radius: 10px;
+							height:1000px;
+							width:745px;
+							}
+							/*The Whole Board Wich Carries The Upgrades And Click Button*/
+							#board {
+								height: 600px;
+								width:740px;
+								background: red;
+								border: 2px solid gray;
+								border-radius: 10px;
+								}
+								/*The Area/Section You Click*/
+								#click_area {
+									background:#009118;
+									border: 3px solid black;
+									height: 80%;
+									width: 50%;
+									float: left;
+									margin: 0px;
+									}
+									/*The Area/Section You Buy Upgrades*/
+									#stats {
+										background: #8A0005;
+										border: 3px solid black;
+										height: 80%;
+										width: 48%;
+										float: right;
+										margin: 0px;
+										}
+										/*Copyright Text*/
+										.copyright {
+											float: left;
+											}
+											/*Contact Text*/
+											.contact {
+												float: right;
+												}
+												/*The Heading Of The Upgrade Area*/
+												#stat_header {
+													text-align: center;
+													margin-top: 250px;
+													}
+													/*Game/Ui Buttons*/
+													/*The Basic Button*/
+													#click_button {
+														float: center;
+														baclground: pink;
+														height: 50px;
+														width: 105px;
+														color: gray;
+														}
+														/*The Mega Button*/
+														.mega-button {
+															display: none;
+															width: 105px;
+																height: 50px;
+																background-color: lightblue;
+																}
+																/*The Ultra Button*/
+																#ultra {
+																	display: none;
+																	background: #570054;
+																	height:50px;
+																	width: 105px;
+																	border: 2px solid gray;
+																	border-radius: 12px;
+																	box-shadow: 2px 9px #999;
+																	}
+																	/*Bob*/
+																	#bob {
+																		display: none;
+																		border: 2px solid gray;
+																		border-radius: 12px;
+																		width: 100px;
+																		height: 100px;
+																		float: right;
+																		}
+																		/*Holy Button*/
+																		#holy-button {
+																			display: none;
+																			background: #FFFB86;
+																			border: 2px solid gray;
+																			border-radius: 12px;
+																			width: 105px;
+																			height: 50px;
+																			}
+																			/*Info/Other Button*/
+																			.other {
+																				height: 50px;
+																				width: 105px;
+																				background: #FFC13F;
+																				border: 2px solid gray;
+																				}
+																				/*Help From Haxerz*/
+																				#people_lvl_01 {
+																					display: block;
+																					}
+																					#people_lvl_02 {
+																						display:none;
+																						}
+																						#people_lvl_03 {
+																							display: none;
+																							}
+																							#people_lvl_04 {
+																								display: none;
+																								}
+																								#people_lvl_05 {
+																									display: none;
+																									}
+																									/*Maxed Out*/
+																									.max {
+																										color: #730007;
+																										}
+																										#maxed {
+																											display: none;
+																											}
+																											/*Footer*/
+																											footer {
+																												height:100px;
+																												width:700px;
+																												background:#9300B4;
+																												border: 3px solid black;
+																												}
+																												/*Link Rules*/
+																												a:link {
+																													color: black;
+																													cursor: pointer;
+																													text-decoration: underline;
+																													}

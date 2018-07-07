@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<!--Comments ByRamzi-->
+		<head>
+			<title>
+				Ramz Clicker
+				</title>
+				<meta charset="utf-8"/>
+				<meta name="theme-color" content="#FFB454"/>
+				<meta property="og:url" content="http://www.ramz_clickz.com"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<script src="main.js"></script>
+				<link rel="stylesheet" type="text/css" href="click_main.css"/>
+						</head>
+						<body>
+							<header>
+								<center>
+									<!--Title And Creator-->
+									<h1>
+										Ramz Clicker
+										</h1>
+										<h3>
+											By Ramzi
+											</h3>
+											</center>u
+											</header>
+											<!--Div as Board-->
+											<div id="board">
+												<!--The Area You Click In-->
+											<div id="click_area">
+												<center>
+													<!--Score-->
+													<div id="scores" class="scores-container">
+												<h1 id="display_score">
+													</h1>
+													</div>
+													<!--Buttons(In a random div for orginization)-->
+													<div id="buttons">
+												<button id="click_button" data-menu="about" onclick="addPoint();">
+													Click
+													</button>
+													<button class="mega-button" id="mega-button" onclick="megaPoint();">
+														Mega Click!
+														</button>
+														<button id="ultra" onclick="ultraClick();">
+															Ultra Click
+															</button>
+															<button id="holy-button" onclick="holyClick();">
+																Holy Click
+																</button>
+																</div>
+													</center>
+													<img id="bob" src="bob.png"/>
+													</div>
+													<!--Upgrade Div-->
+													<div id="stats">
+														<center>
+														<h1 class="stat_header">
+															<u>
+																~ Upgrades ~
+																</u>
+																</h1>
+																</center>
+																<div id="up">
+																	<!--Upgrades-->
+																<p id="mega-tap" onclick="checkScoreOne();">
+																	~ Mega Tap = 1000
+																	</p>
+																	<p id="auto-increase-one" onclick="checkScoreTwo();">
+																		 ~ Increase Auto Click Value(Level 1) = 1500
+																		</p>
+																		<p id="ultra-text" onclick="checkScoreThree();">
+																			 ~ Ultra Click = 5000
+																			</p>
+																			<p id="auto-2" onclick="checkScoreFour();">
+																				~ Increase Auto Click Value(Level 2) = 6000
+																				</p>
+																				<p id="help" onclick="checkScoreFive();">
+																					~ Get Help From Bob = 7500
+																					</p>
+																					<p id="holy" onclick="checkScoreSix();">
+																						~ Holy Click = 10000
+																						</p>
+																						<p id="people_lvl_01" onclick="checkScoreSeven();">
+																							~ Get Help From Haxerz Level 1 = 2500
+																							</p>
+																							<p id="people_lvl_02" onclick="checkScoreEight();">
+																								~ Get Help From Haxerz Level 2 = 5000
+																								</p>
+																								<p id="people_lvl_03" onclick="checkScoreNine();">
+																									~ Get Help From Haxerz Level 3 = 10000
+																									</p>
+																									<p id="people_lvl_04" onclick="checkScoreTen();">
+																										~ Get Help From Haxerz Level 4 = 15000
+																										</p>
+																										<p id="people_lvl_05" onclick="checkScoreEleven();">
+																											~ Get Help From Haxerz Level 5 = 20000
+																											</p>
+																											<p id="maxed">
+																												~ Get Help From Haxerz = <b class="max">MAXED OUT</b>
+																												</p>
+																												</div>
+																</div>
+																</div>
+																<!--Copyright and Contact-->
+																	<footer>
+																<p class="copyright">
+																	Copyright 2018 Ramz Gamez
+																	</p>
+																	<p class="contact">
+																		<b>
+																			CONTACT: 
+																			</b>
+																			<a onmouseover="this.style.color='orange';" onmouseout="this.style.color='black';" href="mailto: dev_mail@ramzgamez.com">
+																				dev_mail@ramzgamez.com
+																				</a>
+																				</p>
+																				</footer>
+																				<script>if(localStorage.storedList) {loadList();}</script>
+																				</body>
+																				</html>
